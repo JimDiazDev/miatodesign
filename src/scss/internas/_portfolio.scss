@@ -1,0 +1,196 @@
+.portfolio__portrate {
+  margin-top: 6rem;
+  margin-bottom: 4rem;
+  padding: 2rem;
+
+  @include pad {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10rem;
+    margin-bottom: 0;
+  }
+
+  @include desktop {
+    column-gap: 20rem;
+  }
+
+  h1 {
+    text-align: start;
+    font-size: 5rem;
+    @include pad {
+      font-size: 7rem;
+    }
+
+    @include desktop {
+      font-size: 13rem;
+    }
+  }
+
+  p {
+    margin-top: 2rem;
+    line-height: normal;
+  }
+}
+
+/* Portfolio options */
+
+.portfolio__options {
+  padding: 2rem;
+  opacity: 0;
+  transform: scale(0.8);
+  transform: translateY(10rem);
+  transition: all 0.7s ease;
+
+  &.visible {
+    opacity: 1;
+    transform: scale(1);
+    transform: translateY(0);
+  }
+
+  @include pad {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 30rem;
+    column-gap: 3rem;
+  }
+
+  @include desktop {
+    column-gap: 5rem;
+    grid-template-rows: 40rem;
+    margin-bottom: 10rem;
+  }
+
+  .options__box {
+    margin-bottom: 6rem;
+
+    @include pad {
+      margin-bottom: 10rem;
+    }
+
+    picture, img {
+      height: auto;
+      @include pad {
+        height: 100%;
+      }
+    }
+
+    h2 {
+      @include pad {
+        font-size: 3.5rem;
+      }
+
+      @include desktop {
+        font-size: 5rem;
+      }
+    }
+  }
+}
+
+/* Portfolio Proyects */
+
+.portfolio__proyects {
+  width: 100%;
+  margin-top: 6rem;
+  padding-top: 2rem;
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 4rem;
+    font-size: 3.5rem;
+
+    @include pad {
+      font-size: 6rem;
+    }
+  }
+
+  h3 {
+    text-align: center;
+    margin-bottom: 4rem;
+    font-size: 4rem;
+
+    @include pad {
+      font-size: 6rem;
+    }
+  }
+
+  .proyects__container {
+    padding: 7rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+
+    @include pad {
+      gap: 14rem;
+    }
+
+    @include desktop {
+      gap: 13rem;
+    }
+  }
+}
+
+.proyects__box {
+  margin-bottom: 5rem;
+/*   opacity: 0;
+  transform: scale(0.8);
+  transform: translateY(10rem);
+  transition: all 0.7s ease; */
+
+/*   &.visible {
+    opacity: 1;
+    transform: scale(1);
+    transform: translateY(0);
+  } */
+
+  @include pad {
+    display: flex;
+    gap: 3rem;
+  }
+
+  @include desktop {
+    width: 80%;
+    gap: 5rem;
+  }
+  
+  .proyects__text {
+    margin-top: 1rem;
+    @include pad {
+      margin-top: 3rem;
+    }
+  }
+
+  h4 {
+    text-align: start;
+    @include pad {
+      font-size: 6rem;
+    }
+    @include desktop {
+      font-size: 8rem;
+    }
+  }
+
+  span {
+    text-transform: uppercase;
+    font-family: "Loubag", sans-serif;
+    @include pad {
+      font-size: 2rem;
+    }
+  }
+}
+
+.proyects__box--right {
+  @include pad {
+    flex-direction: row-reverse;
+    margin-left: auto;
+  }
+
+  h4 {
+    text-align: end;
+  }
+
+  .proyects__text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+}

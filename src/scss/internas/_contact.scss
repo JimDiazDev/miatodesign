@@ -1,0 +1,130 @@
+.contact {
+    width: 100%;
+    margin-top: 6rem;
+    padding: 3rem 0;
+  
+    h3 {
+      margin-bottom: 5rem;
+      text-align: center;
+      font-size: 5rem;
+  
+      @include desktop {
+        margin-bottom: 7rem;
+      }
+    }
+  
+    .contact__container {
+      @include desktop {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+  }
+  
+  .contact__container {
+    h4 {
+      font-size: 4rem;
+      margin-bottom: 1.5rem;
+    }
+  
+    p {
+      margin-bottom: 1rem;
+      @include desktop {
+        margin-bottom: 1.5rem;
+        font-size: 1.9rem;
+      }
+    }
+  
+    a {
+      display: inline-block;
+      margin: 1rem 0.5rem;
+      padding: 1rem 1.5rem;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: #000;
+      border: #000 solid 0.1rem;
+      border-radius: 2.4rem;
+      transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out;
+  
+      &:hover {
+        background-color: $negro;
+        color: $fondo;
+      }
+    }
+  }
+  
+  .contact__text {
+    margin-bottom: 7rem;
+    opacity: 0;
+    transform: scale(0.8);
+    transition: all 0.7s ease;
+  
+    &.visible {
+      opacity: 1;
+      transform: scale(1);
+    }
+  
+    @include desktop {
+      margin-top: 10rem;
+    }
+  
+    h4 {
+        text-align: start;
+      @include desktop {
+        font-size: 7rem;
+      }
+    }
+  }
+  
+  .contact__always {
+    margin-bottom: 7rem;
+    opacity: 0;
+    transform: scale(0.8);
+    transition: all 0.7s ease;
+  
+    &.visible {
+      opacity: 1;
+      transform: scale(1);
+    }
+    @include desktop {
+      text-align: end;
+    }
+  }
+  
+  .contact__end {
+    opacity: 0;
+    transform: scale(0.8);
+    transition: all 0.7s ease;
+  
+    &.visible {
+      opacity: 1;
+      transform: scale(1);
+    }
+    @include desktop {
+      margin: auto;
+      grid-column: 1 / 3;
+      display: flex;
+    }
+  
+    p {
+      font-size: 2rem;
+      @include desktop {
+        margin: auto;
+      }
+    }
+  
+    a {
+      background-color: $negro;
+      color: $fondo;
+  
+      &:hover {
+        background-color: $fondo;
+        color: $negro;
+      }
+  
+      @include desktop {
+        margin: 0 3rem;
+      }
+    }
+  }
+  
