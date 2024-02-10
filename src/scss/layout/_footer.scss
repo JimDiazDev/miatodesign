@@ -1,0 +1,30 @@
+footer {
+    background-color: $negro;
+    padding-top: 3rem;
+
+    h3 {
+        color: $blanco;
+        font-size: 4rem;
+    }
+
+    .footer__links {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        
+    }
+
+    .footer__line {
+        height: 1px;
+        width: 80%;
+        margin: 4rem auto 2rem;
+        background-color: $blanco;
+    }
+
+    .footer__end {
+        text-align: center;
+        padding-bottom: 2rem;
+        color: $blanco;
+    }
+}

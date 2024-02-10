@@ -1,0 +1,124 @@
+.admin {
+  margin-top: 8rem;
+}
+
+.admin__button_conteiner {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.4rem;
+}
+
+.admin__button {
+  padding: 1rem 2rem;
+  background-color: $font;
+  color: $fondo;
+  border: none;
+  font-family: "Loubag", sans-serif;
+}
+
+.admin__title {
+  font-size: 4.5rem;
+  margin-bottom: 4rem;
+
+  @include pad {
+    font-size: 7rem;
+    margin-bottom: 7rem;
+  }
+}
+
+.alert {
+    padding: 1.5rem;
+    text-align: center;
+    color: $fondo;
+    font-weight: $bold;
+    text-transform: uppercase;
+    margin: 1rem 0;
+
+    &.bug {
+        background-color: #B03A2E;
+    }
+
+    &.success {
+      background-color: $font;
+      margin-bottom: 5rem;
+    }
+}
+
+.alert:first-of-type {
+    margin-top: 5rem;
+}
+
+.projects__cards {
+  margin: 7rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10rem;
+
+  @include pad {
+    gap: 4rem;
+    row-gap: 5rem;
+  }
+}
+
+.project__card {
+  width: 100%;
+
+  @include pad {
+    width: 40%;
+    height: 40rem;
+  }
+
+  @include desktop {
+    width: 30%;
+  }
+
+  img {
+    @include pad {
+      height: 50%;
+    }
+  }
+
+  .project__name {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 3.5rem;
+    font-family: 'Loubag', sans-serif;
+  }
+
+  .project__update  {
+    display: block;
+    margin-top: 2rem;
+    padding: 1.5rem 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Loubag', sans-serif;
+    color: $fondo;
+    background-color: $font;
+  }
+
+  .project__delete {
+    margin-top: 2rem;
+    padding: 1.5rem 2rem;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    background-color: $font;
+    
+    input {
+      text-transform: uppercase;
+      font-family: 'Loubag', sans-serif;
+      border: none;
+      cursor: pointer;
+      color: $fondo;
+      background-color: $font;
+    }
+  }
+}
+
+.small_image {
+  width: 100%;
+
+  @include pad {
+    width: 50%;
+  }
+}
