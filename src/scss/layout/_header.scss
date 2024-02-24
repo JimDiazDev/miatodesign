@@ -152,14 +152,14 @@
     width: 500vw;
     display: flex;
     transition: all 1s ease;
-  }
 
-    picture {
-    width: 20%;
-    height: 100%;
-
-    img {
+    .portrate__picture {
+      width: 20%;
       height: 100%;
+  
+      img {
+        height: 100%;
+      }
     }
   }
 

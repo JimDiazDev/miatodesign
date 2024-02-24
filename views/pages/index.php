@@ -9,7 +9,7 @@
     <div class="portrate">
         <div class="portrate__slide">
 
-            <picture>
+            <picture class="portrate__picture">
                 <img
                 width="200"
                 height="300"
@@ -18,7 +18,7 @@
                 />
             </picture>
 
-            <picture>
+            <picture class="portrate__picture">
                 <img
                 width="200"
                 height="300"
@@ -27,7 +27,7 @@
                 />
             </picture>
 
-            <picture>
+            <picture class="portrate__picture">
                 <img
                 width="200"
                 height="300"
@@ -36,7 +36,7 @@
                 />
             </picture>
 
-            <picture>
+            <picture class="portrate__picture">
                 <img
                 width="200"
                 height="300"
@@ -45,7 +45,7 @@
                 />
             </picture>
 
-            <picture>
+            <picture class="portrate__picture">
                 <img
                 width="200"
                 height="300"
