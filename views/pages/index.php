@@ -11,6 +11,7 @@
 
             <picture class="portrate__picture">
                 <img
+                class="portrate__img"
                 width="200"
                 height="300"
                 src="./images/<?php echo s($home->sliderOne); ?>"
@@ -20,6 +21,7 @@
 
             <picture class="portrate__picture">
                 <img
+                class="portrate__img"
                 width="200"
                 height="300"
                 src="./images/<?php echo s($home->sliderTwo); ?>"
@@ -29,6 +31,7 @@
 
             <picture class="portrate__picture">
                 <img
+                class="portrate__img"
                 width="200"
                 height="300"
                 src="./images/<?php echo s($home->sliderThree); ?>"
@@ -38,6 +41,7 @@
 
             <picture class="portrate__picture">
                 <img
+                class="portrate__img"
                 width="200"
                 height="300"
                 src="./images/<?php echo s($home->sliderFour); ?>"
@@ -47,6 +51,7 @@
 
             <picture class="portrate__picture">
                 <img
+                class="portrate__img"
                 width="200"
                 height="300"
                 src="./images/<?php echo s($home->sliderFive); ?>"
