@@ -73,6 +73,7 @@
   }
 
   img {
+    width: 100%;
     @include pad {
       height: 50%;
     }
