@@ -58,6 +58,11 @@
     transform: translateY(10rem);
     transition: all 0.7s ease;
 
+    picture, img {
+      width: 100%;
+      height: auto;
+    }
+
     &.visible {
       opacity: 1;
       transform: scale(1);
