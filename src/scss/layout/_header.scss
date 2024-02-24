@@ -129,7 +129,7 @@
 
 .portrate {
   width: 600%;
-  height: 30vh;
+  height: 25vh;
   position: relative;
   top: 0;
   left: 0;
@@ -137,11 +137,15 @@
   display: flex;
 
   @include pad {
-    height: 65vh;
+    height: 40vh;
   }
 
   @include desktop {
-    height: 92vh;
+    height: 50vh;
+  }
+
+  @include desktop-l {
+    height: 90vh;
   }
 
   .portrate__slide {
@@ -150,14 +154,14 @@
     transition: all 1s ease;
   }
 
-  /*   picture {
+    picture {
     width: 20%;
     height: 100%;
 
     img {
       height: 100%;
     }
-  } */
+  }
 
   .portrate__text {
     position: absolute;

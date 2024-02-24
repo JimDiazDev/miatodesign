@@ -9,40 +9,50 @@
     <div class="portrate">
         <div class="portrate__slide">
 
-            <img
-            width="200"
-            height="300"
-            src="./images/<?php echo s($home->sliderOne); ?>"
-            alt="Slider image one"
-            />
+            <picture>
+                <img
+                width="200"
+                height="300"
+                src="./images/<?php echo s($home->sliderOne); ?>"
+                alt="Slider image one"
+                />
+            </picture>
 
-            <img
-            width="200"
-            height="300"
-            src="./images/<?php echo s($home->sliderTwo); ?>"
-            alt="Slider image two"
-            />
+            <picture>
+                <img
+                width="200"
+                height="300"
+                src="./images/<?php echo s($home->sliderTwo); ?>"
+                alt="Slider image two"
+                />
+            </picture>
 
-            <img
-            width="200"
-            height="300"
-            src="./images/<?php echo s($home->sliderThree); ?>"
-            alt="Slider image three"
-            />
+            <picture>
+                <img
+                width="200"
+                height="300"
+                src="./images/<?php echo s($home->sliderThree); ?>"
+                alt="Slider image three"
+                />
+            </picture>
 
-            <img
-            width="200"
-            height="300"
-            src="./images/<?php echo s($home->sliderFour); ?>"
-            alt="Slider image four"
-            />
+            <picture>
+                <img
+                width="200"
+                height="300"
+                src="./images/<?php echo s($home->sliderFour); ?>"
+                alt="Slider image four"
+                />
+            </picture>
 
-            <img
-            width="200"
-            height="300"
-            src="./images/<?php echo s($home->sliderFive); ?>"
-            alt="Slider image five"
-            />
+            <picture>
+                <img
+                width="200"
+                height="300"
+                src="./images/<?php echo s($home->sliderFive); ?>"
+                alt="Slider image five"
+                />
+            </picture>
 
         </div>
 
