@@ -231,6 +231,11 @@
   gap: 2rem;
   padding: 1rem 0;
   cursor: pointer;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
 }
 
 .language__select {
