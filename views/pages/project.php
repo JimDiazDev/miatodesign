@@ -8,13 +8,15 @@
 <main>
 
 <div class="container">
-    <img
-        loading="lazy"
-        width="200"
-        height="300"
-        src="./images/<?php echo s($project->renderingOne); ?>"
-        alt="First proyect rendering"
-    />
+    <picture>
+        <img
+            loading="lazy"
+            width="200"
+            height="300"
+            src="./images/<?php echo s($project->renderingOne); ?>"
+            alt="First proyect rendering"
+        />
+    </picture>
 </div>
 
 <div class="work__text container">
@@ -48,14 +50,16 @@
 <?php if($project->renderingTwo) : ?>
     <div class="work__renderings container">
 
-        <img
-            class="work__render2"
-            loading="lazy"
-            width="200"
-            height="300"
-            src="./images/<?php echo s($project->renderingTwo); ?>"
-            alt="Second rendering"
-        />
+        <picture>
+            <img
+                class="work__render2"
+                loading="lazy"
+                width="200"
+                height="300"
+                src="./images/<?php echo s($project->renderingTwo); ?>"
+                alt="Second rendering"
+            />
+        </picture>
 
         <?php if($project->renderingThree) : ?>
             <img

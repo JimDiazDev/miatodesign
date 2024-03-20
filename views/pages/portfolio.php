@@ -15,33 +15,6 @@
         <p><?php echo $depends ? s($portfolio->descripcion) : s($portfolio->description); ?></p>
     </div>
 
-    <div class="portfolio__options container">
-        <div class="options__box">
-            <a href="/comercial">
-                <img
-                    loading="lazy"
-                    width="200"
-                    height="300"
-                    src="./images/<?php echo s($portfolio->imgOne); ?>"
-                    alt="Comercial designs image"
-                />
-            </a>
-            <h2><?php echo $depends ? 'Diseños Comerciales' : 'Comercial Desings' ; ?></h2>
-        </div>
-        <div class="options__box">
-            <a href="/residential">
-                <img
-                    loading="lazy"
-                    width="200"
-                    height="300"
-                    src="./images/<?php echo s($portfolio->imgTwo); ?>"
-                    alt="Residencial desings image"
-                />
-            </a>
-            <h2><?php echo $depends ? 'Diseños Recidenciales' : 'Recidential Desings' ; ?></h2>
-        </div>
-    </div>
-
     <!------------------------------------------------->
     <!--------------- SOME PORYECTS ------------------->
     <!------------------------------------------------->
